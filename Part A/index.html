@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Welcome, <span id="username-display"></span></h1>
+    <h1 class="display-4">Calculator</h1>
+    <div class="row">
+      <div class="col-md-6">
+        <input type="number" class="form-control" id="number1" placeholder="Number 1">
+      </div>
+      <div class="col-md-6">
+        <input type="number" class="form-control" id="number2" placeholder="Number 2">
+      </div>
+    </div>
+    <div class="btn-group mt-3" role="group" aria-label="Basic calculations">
+      <button type="button" class="btn btn-primary operation-btn" data-operation="add">Add</button>
+      <button type="button" class="btn btn-primary operation-btn" data-operation="subtract">Subtract</button>
+      <button type="button" class="btn btn-primary operation-btn" data-operation="multiply">Multiply</button>
+      <button type="button" class="btn btn-primary operation-btn" data-operation="divide">Divide</button>
+      <button type="button" class="btn btn-secondary" id="clear-button">Clear</button>
+    </div>
+    <input type="number" class="form-control mt-3" id="result" placeholder="Result" readonly>
+    <div id="error-messages" class="mt-3">
+      <div id="number1-error" class="error-message"></div>
+      <div id="number2-error" class="error-message"></div>
+      <div id="result-error" class="error-message"></div>
+    </div>
+  </div>
+
+  <!-- Include jQuery and your custom script.js -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

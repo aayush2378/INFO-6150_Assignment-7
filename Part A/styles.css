@@ -1,0 +1,77 @@
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.display-4 {
+  margin-top: 0;
+}
+
+#login-form {
+  margin-top: 20px;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+#login-button {
+  width: 100%;
+}
+
+/* Calculator Page Styles */
+.operation-btn {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+}
+
+#result {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+#username-display {
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+h1 {
+  color: #333;
+  font-size: 32px;
+}
+
+
+.form-control {
+  margin-bottom: 10px;
+}
+
+#result {
+  font-size: 24px;
+}
+
+.error-message {
+  color: #dc3545;
+  font-size: 14px;
+}
+
+#error-messages {
+  margin-top: 10px;
+}
